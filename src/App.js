@@ -6,6 +6,7 @@ import Nav from "../src/Components/Nav";
 import Skills from "../src/Components/Skills";
 import Logo from "../src/Components/Logo";
 import "../src/style/app.css";
+import HireMe from "./Components/HireMe";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Header />
         <Skills />
         <About />
+        <MyWork />
+        <ContactMe />
       </div>
     </div>
   );

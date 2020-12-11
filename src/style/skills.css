@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid red;
 }
 
 .skills {
@@ -21,8 +20,16 @@
 }
 
 .skill {
-  margin: 20px;
   cursor: pointer;
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
+}
+
+.skill:hover {
+  height: 11vh;
+  width: 7vw;
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
 }
 
 .skills-header {
@@ -37,35 +44,48 @@
   align-items: center;
 }
 
-.skills-text {
-  height: 95%;
-  width: 80%;
-  display: flex;
-  justify-content: center;
-}
-
 .skills-text-general {
   border: 1px solid var(--line-color);
-  width: 40%;
+  width: 50%;
   height: 50%;
-  margin-right: 2vw;
   border-radius: 10px;
-  padding: 2vh;
+  padding-top: 10vh;
+  padding-right: 5vh;
+  padding-left: 5vh;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 2vh;
   box-sizing: border-box;
+  text-align: center;
+  line-height: 5vh;
 }
+
+.skill-direction {
+  color: var(--accent-color);
+}
+
+.skill-reader-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2vw;
+}
+
 .skills-text-specific {
   border: 1px solid var(--accent-color);
   min-height: 20%;
-  width: 20%;
+  width: 40%;
   height: fit-content;
   margin-left: 2vw;
   border-radius: 10px;
   padding: 2vh;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 2vh;
+  font-size: 1.7vh;
   box-sizing: border-box;
+  cursor: pointer;
+}
+
+.reader-title {
+  color: var(--accent-color);
 }

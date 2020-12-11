@@ -14,7 +14,7 @@ export default function Header() {
               Hello, I am
               <div className="name">
                 <a href="#contact-me">
-                  {"<"}Michael Alessi{">"}
+                  {"< "}Michael Alessi{" >"}
                 </a>
               </div>
             </h1>
