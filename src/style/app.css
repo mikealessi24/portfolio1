@@ -10,14 +10,12 @@ body {
 
 .app {
   display: flex;
-  height: 100vh;
-  width: 100vw;
 }
 
 .app-left {
   width: 4%;
   background-color: rgba(0, 0, 0, 0.5);
-  position: sticky;
+  position: fixed;
   padding: 0.3vw;
   left: 0;
   height: 100vh;
@@ -30,6 +28,10 @@ body {
 
 .app-right {
   width: 96%;
-  overflow-y: scroll;
-  overflow-x: hidden;
+}
+
+.app-right-outer {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
 }

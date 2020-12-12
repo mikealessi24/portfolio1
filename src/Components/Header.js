@@ -1,9 +1,10 @@
 import React from "react";
 import "../style/header.css";
+import { Link } from "react-scroll";
 
 export default function Header() {
   return (
-    <div className="header-container">
+    <div className="header-container" id="header">
       <div className="header-main">
         <div className="header-content">
           <div className="profile-image-container">
@@ -13,9 +14,9 @@ export default function Header() {
             <h1>
               Hello, I am
               <div className="name">
-                <a href="#contact-me">
+                <Link smooth={true} duration={500} to="about-me">
                   {"< "}Michael Alessi{" >"}
-                </a>
+                </Link>
               </div>
             </h1>
           </div>

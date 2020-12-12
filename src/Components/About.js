@@ -3,7 +3,7 @@ import "../style/about.css";
 
 export default function About() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about-me">
       <div className="about-header">
         <div className="about-line-effect">
           <div className="about-line-text">

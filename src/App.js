@@ -15,12 +15,14 @@ function App() {
         <Logo />
         <Nav />
       </div>
-      <div className="app-right">
-        <Header />
-        <Skills />
-        <About />
-        <MyWork />
-        <ContactMe />
+      <div className="app-right-outer">
+        <div className="app-right">
+          <Header />
+          <Skills />
+          <About />
+          <MyWork />
+          <ContactMe />
+        </div>
       </div>
     </div>
   );
