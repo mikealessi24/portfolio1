@@ -2,8 +2,28 @@ import React from "react";
 import "../style/myWork.css";
 import Project from "../Components/Project";
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export default function MyWork() {
   const [clicked, setClicked] = React.useState(undefined);
+
+  React.useEffect(() => {
+    gsap.from(".myWork-container", {
+      duration: 3,
+      y: -100,
+      opacity: 0,
+      ease: "ease-in",
+      scrollTrigger: {
+        trigger: ".myWork-container",
+        start: "top 90%",
+        end: "bottom 60%",
+        toggleActions: "restart complete reverse reset",
+      },
+    });
+  }, []);
+
   return (
     <div className="myWork-container" id="projects">
       <div className="projects">

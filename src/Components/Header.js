@@ -2,6 +2,8 @@ import React from "react";
 import "../style/header.css";
 import { Link } from "react-scroll";
 
+import Tooltip from "@material-ui/core/Tooltip";
+
 import { gsap, Power3 } from "gsap";
 
 export default function Header() {
@@ -40,9 +42,11 @@ export default function Header() {
             <h1>
               Hi, I'm
               <div className="name">
-                <Link smooth={true} duration={500} to="about-me">
-                  {"< "}Michael Alessi{" >"}
-                </Link>
+                <Tooltip title="Get to know me!">
+                  <Link smooth={true} duration={500} to="about-me">
+                    {"< "}Michael Alessi{" >"}
+                  </Link>
+                </Tooltip>
               </div>
             </h1>
           </div>

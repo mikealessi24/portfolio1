@@ -3,7 +3,26 @@ import "../style/about.css";
 
 import { Link } from "react-scroll";
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export default function About() {
+  React.useEffect(() => {
+    gsap.from(".about-container", {
+      duration: 1.5,
+      x: -1000,
+      opacity: 0,
+      ease: "ease-in",
+      scrollTrigger: {
+        trigger: ".about-container",
+        start: "top 90%",
+        end: "bottom 60%",
+        toggleActions: "restart complete reverse reset",
+      },
+    });
+  }, []);
+
   return (
     <div className="about-container" id="about-me">
       <div className="about-header">

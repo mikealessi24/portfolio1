@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
   box-sizing: border-box;
   border-right: 1px solid var(--line-color);
+  z-index: 2;
 }
 
 .app-right {

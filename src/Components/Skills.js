@@ -3,8 +3,27 @@ import "../style/skills.css";
 import SkillReader from "../Components/SkillReader";
 import SkillBar from "../Components/SkillBar";
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export default function Skills() {
   const [clicked, setClicked] = React.useState(undefined);
+
+  React.useEffect(() => {
+    gsap.from(".skills-container", {
+      duration: 3,
+      y: 100,
+      opacity: 0,
+      ease: "ease-in",
+      scrollTrigger: {
+        trigger: ".skills-container",
+        start: "top 90%",
+        end: "bottom 60%",
+        toggleActions: "restart complete reverse reset",
+      },
+    });
+  }, []);
 
   return (
     <div className="skills-container">
