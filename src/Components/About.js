@@ -63,7 +63,7 @@ export default function About() {
             </div>
           </div>
           <div className="aboutImg-container">
-            <img src="/longPhoto.jpeg" />
+            <img src="/longPhoto.jpeg" alt="about" />
           </div>
         </div>
       </div>
