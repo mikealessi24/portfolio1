@@ -41,7 +41,7 @@
 
 .project-header {
   height: 15%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #0d0d0d;
   color: white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -80,7 +80,7 @@
   border-radius: 10px;
   padding: 2vh;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #0d0d0d;
   font-size: 2vh;
   box-sizing: border-box;
   position: relative;

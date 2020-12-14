@@ -14,7 +14,7 @@ body {
 
 .app-left {
   width: 4%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #0d0d0d;
   position: fixed;
   padding: 0.3vw;
   left: 0;
@@ -28,6 +28,10 @@ body {
 
 .app-right {
   width: 96%;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .app-right-outer {

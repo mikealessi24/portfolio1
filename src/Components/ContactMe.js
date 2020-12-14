@@ -8,6 +8,11 @@ export default function ContactMe() {
     <div className="contactMe-container" id="contact-me">
       <HireMe />
       <ContactForm />
+      <div className="contact-line-container">
+        <h3>
+          {"< "}Contact Me{" >"}
+        </h3>
+      </div>
     </div>
   );
 }

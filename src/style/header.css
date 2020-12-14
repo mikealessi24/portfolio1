@@ -20,6 +20,7 @@
   color: white;
   height: 100%;
   width: 100%;
+  z-index: 5;
 }
 
 .profile-image-container {
@@ -38,7 +39,7 @@
   text-align: center;
   height: 100%;
   width: 40%;
-  font-size: 2vh;
+  font-size: 1.8vh;
   position: relative;
   top: 7vh;
 }

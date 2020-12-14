@@ -1,6 +1,8 @@
 import React from "react";
 import "../style/about.css";
 
+import { Link } from "react-scroll";
+
 export default function About() {
   return (
     <div className="about-container" id="about-me">
@@ -8,7 +10,7 @@ export default function About() {
         <div className="about-line-effect">
           <div className="about-line-text">
             <h3>
-              {"< "}Who am I{" >"}
+              {"< "}Who I am{" >"}
             </h3>
           </div>
         </div>
@@ -25,7 +27,9 @@ export default function About() {
               bootcamp called Jack Russell Software (JRS) and began creating web
               applications.{" "}
               <span className="project-highlight">
-                Go look at some of my projects below!
+                <Link smooth={true} duration={500} to="projects">
+                  Click here to look at some of my projects below!
+                </Link>
               </span>{" "}
               I finished this program in November of 2020.
               <br></br>

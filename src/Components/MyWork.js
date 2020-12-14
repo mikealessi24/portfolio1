@@ -5,7 +5,7 @@ import Project from "../Components/Project";
 export default function MyWork() {
   const [clicked, setClicked] = React.useState(undefined);
   return (
-    <div className="myWork-container">
+    <div className="myWork-container" id="projects">
       <div className="projects">
         <Project
           img={"pickup.png"}

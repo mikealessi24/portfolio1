@@ -16,7 +16,7 @@
   overflow-y: hidden;
   border-radius: 10px;
   border: 1px solid var(--line-color);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #0d0d0d;
 }
 
 .skill {
@@ -33,9 +33,7 @@
 }
 
 .skills-header {
-  color: white;
-  border: 1px solid var(--line-color);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--accent-color);
   border-radius: 10px;
   height: 5%;
   width: 50%;
@@ -53,7 +51,7 @@
   padding-right: 5vh;
   padding-left: 5vh;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #0d0d0d;
   font-size: 2vh;
   box-sizing: border-box;
   text-align: center;
@@ -80,7 +78,7 @@
   border-radius: 10px;
   padding: 2vh;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #0d0d0d;
   font-size: 1.7vh;
   box-sizing: border-box;
   cursor: pointer;

@@ -5,6 +5,7 @@ import SkillBar from "../Components/SkillBar";
 
 export default function Skills() {
   const [clicked, setClicked] = React.useState(undefined);
+
   return (
     <div className="skills-container">
       <SkillBar setClicked={setClicked} clicked={clicked} />
