@@ -14,7 +14,7 @@ export default function Project({ img, title, setClicked, clicked }) {
     <>
       <div className="project" onClick={() => check()}>
         <div className="project-img">
-          <img src={img} />
+          <img src={img} alt="project" />
         </div>
 
         <div

@@ -11,7 +11,11 @@ export default function Nav() {
     <div className="nav-container">
       <div className="icons-container">
         <Tooltip title="Github">
-          <a href="https://github.com/mikealessi24" target="_blank">
+          <a
+            href="https://github.com/mikealessi24"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="icon">
               <svg
                 fill="#ffffff"
@@ -27,7 +31,11 @@ export default function Nav() {
           </a>
         </Tooltip>
         <Tooltip title="LinkedIn">
-          <a href="https://www.linkedin.com/in/michael-alessi/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/michael-alessi/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="icon">
               <svg
                 fill="#ffffff"

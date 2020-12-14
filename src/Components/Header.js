@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 import Tooltip from "@material-ui/core/Tooltip";
 
-import { gsap, Power3 } from "gsap";
+import { gsap } from "gsap";
 
 export default function Header() {
   let moveLine = React.useRef();

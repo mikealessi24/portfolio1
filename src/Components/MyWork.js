@@ -53,6 +53,7 @@ export default function MyWork() {
             <a
               href="https://dev.d3oo9vyk0aa8nj.amplifyapp.com/"
               target="_blank"
+              rel="noreferrer"
             >
               <span className="directions">Click here to view the site!</span>
             </a>
@@ -72,6 +73,7 @@ export default function MyWork() {
             <a
               href="http://test-cohort-5-group-cohortfive.s3-website-us-east-1.amazonaws.com/"
               target="_blank"
+              rel="noreferrer"
             >
               <span className="directions">Click here to view the site!</span>
             </a>
