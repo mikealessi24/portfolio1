@@ -19,7 +19,7 @@ export default function MyWork() {
         trigger: ".myWork-container",
         start: "top 90%",
         end: "bottom 60%",
-        toggleActions: "restart complete reverse reset",
+        toggleActions: "play none none reset",
       },
     });
   }, []);

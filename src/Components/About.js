@@ -18,7 +18,7 @@ export default function About() {
         trigger: ".about-container",
         start: "top 90%",
         end: "bottom 60%",
-        toggleActions: "restart complete reverse reset",
+        toggleActions: "play none none reset",
       },
     });
   }, []);
@@ -38,13 +38,13 @@ export default function About() {
             <div className="about-text">
               <span className="paragraph">
                 My name is Michael Alessi and I’m located in Charleston, South
-              </span>
-              Carolina. I graduated from the College of Charleston in 2019 with
-              a Bachelor of Science in Public Health. After graduation, I
-              started to explore my passion for computer science and software
-              development. I enrolled in a Charleston-based immersive coding
-              bootcamp called Jack Russell Software (JRS) and began creating web
-              applications.{" "}
+                Carolina.
+              </span>{" "}
+              I graduated from the College of Charleston in 2019 with a Bachelor
+              of Science in Public Health. After graduation, I started to
+              explore my passion for computer science and software development.
+              I enrolled in a Charleston-based immersive coding bootcamp called
+              Jack Russell Software (JRS) and began creating web applications.{" "}
               <span className="project-highlight">
                 <Link smooth={true} duration={500} to="projects">
                   Click here to look at some of my projects below!

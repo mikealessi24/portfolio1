@@ -21,7 +21,7 @@ export default function ContactMe() {
         trigger: ".contactMe-container",
         start: "top 90%",
         end: "bottom 60%",
-        toggleActions: "restart complete reverse reset",
+        toggleActions: "play none none reset",
       },
     });
   }, []);
