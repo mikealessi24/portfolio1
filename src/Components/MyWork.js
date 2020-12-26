@@ -39,6 +39,12 @@ export default function MyWork() {
           setClicked={setClicked}
           clicked={clicked}
         />
+        <Project
+          img={"twitterClone.png"}
+          title={"Simple Twitter Clone"}
+          setClicked={setClicked}
+          clicked={clicked}
+        />
       </div>
       <div className="description-container">
         {clicked === "Pickup" ? (
@@ -72,6 +78,25 @@ export default function MyWork() {
             <br></br>
             <a
               href="http://test-cohort-5-group-cohortfive.s3-website-us-east-1.amazonaws.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="directions">Click here to view the site!</span>
+            </a>
+          </p>
+        ) : null}
+        {clicked === "Simple Twitter Clone" ? (
+          <p
+            className="project-description"
+            onClick={() => setClicked(undefined)}
+          >
+            This is a simple twitter clone using one account. I made this to
+            explore the firebase database with the help of programmer on
+            youtube.
+            <br></br>
+            <br></br>
+            <a
+              href="https://twitter-clone-5ed2a.web.app/"
               target="_blank"
               rel="noreferrer"
             >
