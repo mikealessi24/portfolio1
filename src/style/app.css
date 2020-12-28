@@ -40,3 +40,15 @@ body {
   justify-content: flex-end;
   overflow: hidden;
 }
+
+@media all and (max-width: 600px) {
+  .app-left {
+    width: 10%;
+    position: fixed;
+    left: 0;
+  }
+
+  .app-right {
+    width: 90%;
+  }
+}

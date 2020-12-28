@@ -90,9 +90,9 @@ export default function MyWork() {
             className="project-description"
             onClick={() => setClicked(undefined)}
           >
-            This is a simple twitter clone using one account. I made this to
-            explore the firebase database with the help of programmer on
-            youtube.
+            This is a simple twitter clone. This app was made to explore the
+            firebase database with the help of cleverprogrammer on youtube. The
+            frontend uses React and backend uses google firebase.
             <br></br>
             <br></br>
             <a

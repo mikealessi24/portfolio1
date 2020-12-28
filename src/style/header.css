@@ -73,3 +73,29 @@
   text-decoration: none;
   cursor: auto;
 }
+
+@media all and (max-width: 600px) {
+  .profile-image-container {
+    height: 40%;
+    width: 40%;
+  }
+
+  .header-text {
+    font-size: 0.6vh;
+    width: 50%;
+    position: relative;
+    top: 19vh;
+  }
+
+  .line-title {
+    font-size: 0.8vh;
+    position: relative;
+    right: 4vw;
+  }
+
+  .line-effect {
+    height: 3.5vh;
+    position: relative;
+    bottom: 20vh;
+  }
+}
