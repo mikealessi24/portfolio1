@@ -130,3 +130,45 @@
   align-items: center;
   font-size: 2.5vh;
 }
+
+@media all and (max-width: 600px) {
+  .hire-title {
+    font-size: 2vh;
+  }
+
+  .hire-text {
+    font-size: 1.5vh;
+    margin-left: 1vw;
+  }
+
+  .hire-me-line {
+    border-radius: 4px;
+  }
+
+  .submit-button {
+    width: 24%;
+    height: 5%;
+    position: relative;
+    left: 40vw;
+    border-radius: 4px;
+    font-size: 1vh;
+  }
+
+  .email-input {
+    width: 30%;
+  }
+
+  .name-input {
+    width: 30%;
+  }
+
+  .subject-input {
+    width: 90%;
+  }
+
+  .contact-textarea {
+    resize: none;
+    width: 90%;
+    height: 30%;
+  }
+}

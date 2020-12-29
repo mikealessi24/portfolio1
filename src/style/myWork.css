@@ -104,3 +104,14 @@
   color: var(--accent-color);
   font-weight: lighter;
 }
+
+@media all and (max-width: 600px) {
+  .project {
+    height: 20vh;
+    width: 25vw;
+    margin: 3vw;
+  }
+  .project-title {
+    font-size: 1vh;
+  }
+}
