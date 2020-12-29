@@ -76,15 +76,15 @@
 
 @media all and (max-width: 600px) {
   .profile-image-container {
-    height: 40%;
-    width: 40%;
+    height: 30%;
+    width: 35%;
   }
 
   .header-text {
     font-size: 0.6vh;
     width: 50%;
     position: relative;
-    top: 19vh;
+    top: 18vh;
   }
 
   .line-title {
@@ -94,8 +94,9 @@
   }
 
   .line-effect {
-    height: 3.5vh;
+    height: 3vh;
     position: relative;
-    bottom: 20vh;
+    bottom: 22vh;
+    border-radius: 4px;
   }
 }
