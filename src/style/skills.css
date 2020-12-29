@@ -87,3 +87,24 @@
 .reader-title {
   color: var(--accent-color);
 }
+
+@media all and (max-width: 600px) {
+  .skills-header {
+    font-size: 2vh;
+    width: 70%;
+    height: 3vh;
+    border-radius: 4px;
+  }
+
+  .skills-text-general {
+    width: 70%;
+    font-size: 1.3vh;
+    line-height: 3vh;
+    padding-top: 5vh;
+  }
+
+  .skills-text-specific {
+    font-size: 1vh;
+    width: 50%;
+  }
+}
