@@ -3,6 +3,10 @@ import "../style/contactMe.css";
 
 import emailjs from "emailjs-com";
 
+import { TextField } from "@material-ui/core";
+import { TextareaAutosize } from "@material-ui/core";
+import { Button } from "@material-ui/core";
+
 export default function ContactForm({ setStatus }) {
   const sendEmail = (e) => {
     e.preventDefault();
@@ -33,34 +37,39 @@ export default function ContactForm({ setStatus }) {
     <div className="contactForm" onSubmit={sendEmail}>
       <div className="form-container">
         <form className="form">
-          <input
-            className="name-input"
-            type="text"
-            placeholder="  Name..."
+          <TextField
+            id="outlined-basic"
+            label="Name"
+            variant="outlined"
             name="name"
+            className="textForm"
           />
-          <input
-            className="email-input"
-            type="text"
-            placeholder="  Email..."
+          <TextField
+            id="outlined-basic"
+            label="Email"
+            variant="outlined"
             name="email"
+            className="textForm"
           />
-          <input
-            className="subject-input"
-            type="text"
-            placeholder="  Subject..."
+          <TextField
+            id="outlined-basic"
+            label="Subject"
+            variant="outlined"
             name="subject"
+            className="textForm"
           />
-          <textarea
-            className="contact-textarea"
-            rows="10"
-            cols="3"
-            placeholder=" Ask me anything!"
+          <TextField
+            id="outlined-basic"
+            label="Ask me anything"
+            variant="outlined"
             name="message"
+            multiline="true"
+            rows="5"
+            className="textForm"
           />
-          <button className="submit-button" type="submit">
+          <Button className="submit-button" type="submit">
             {"< "}Send{" >"}
-          </button>
+          </Button>
         </form>
       </div>
     </div>

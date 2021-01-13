@@ -50,69 +50,22 @@
 .form {
   height: 70%;
   width: 70%;
-  border: 1px solid var(--line-color);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   padding-left: 2vw;
   padding-right: 2vw;
-  background-color: #0d0d0d;
+  /* background-color: #0d0d0d; */
   border-radius: 10px;
-}
-
-.name-input {
-  width: 10%;
-  transition: 0.5s;
-}
-
-.name-input:focus {
-  outline-color: var(--accent-color);
-  width: 30%;
-  transition-duration: 0.5s;
-}
-
-.email-input {
-  width: 10%;
-  transition-duration: 0.5s;
-}
-
-.email-input:focus {
-  outline-color: var(--accent-color);
-  width: 30%;
-  transition-duration: 0.5s;
-}
-
-.subject-input {
-  outline-color: var(--accent-color);
-  width: 100%;
-}
-
-.contact-textarea {
-  resize: none;
-  width: 100%;
-}
-
-.contact-textarea:focus {
-  outline-color: var(--accent-color);
 }
 
 .submit-button {
-  width: 10%;
-  height: 7%;
-  position: relative;
-  left: 48.4vw;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition-duration: 0.5s;
-  transition-timing-function: linear;
-  font-size: 1.5vh;
+  background-color: var(--line-color) !important;
 }
 
 .submit-button:hover {
-  background-color: var(--accent-color);
-  transition-duration: 0.5s;
-  transition-timing-function: linear;
+  background-color: var(--accent-color) !important;
+  transition-duration: 0.3s;
 }
 
 .contact-line-container {
@@ -129,6 +82,32 @@
   justify-content: center;
   align-items: center;
   font-size: 2.5vh;
+}
+
+.textForm {
+  background-color: #0d0d0d !important;
+  color: white !important;
+  border-radius: 10px !important;
+}
+
+.MuiFormControl-root {
+  color: white !important;
+}
+
+.MuiFormLabel-root {
+  color: white !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #90ee90 !important;
+}
+
+.MuiInputBase-input {
+  color: white !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
 }
 
 @media all and (max-width: 600px) {
